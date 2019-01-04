@@ -1,5 +1,9 @@
 class CommentsController < ApplicationController
     def create
+        # Here, instead of following the JumpStartLab tutorial, 
+        # I copied the menthod used in the far more current Rails Guides tutorial.
+        # https://guides.rubyonrails.org/getting_started.html#generating-a-controller
+        
         #@comment = Comment.new(comment_params)
         #@comment.article_id = params[:article_id]
         #@comment.save
